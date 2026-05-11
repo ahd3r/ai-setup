@@ -6,7 +6,7 @@ nvm install --lts
 npm i -g opencode-ai
 ```
 - install codex
-- configure
+- configure skills
 ```bash
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
