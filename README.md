@@ -1,7 +1,9 @@
 # opencode setup
 - install
 ```bash
-curl -fsSL https://opencode.ai/install | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+nvm install --lts
+npm i -g opencode-ai
 ```
 - install codex
 - configure
