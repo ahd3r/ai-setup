@@ -3,8 +3,11 @@
 ```bash
 curl -fsSL https://opencode.ai/install | bash
 ```
+- install codex
 - configure
 ```bash
+mkdir ~/repos
+git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r
 echo "{
 }" > ~/.config/opencode/opencode.json
 ```
