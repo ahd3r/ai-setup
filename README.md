@@ -11,7 +11,7 @@ git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-dir
 git clone https://github.com/obra/superpowers.git ~/repos/obra/superpowers
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings
-echo "{
+echo '{
   "$schema": "https://opencode.ai/config.json",
   "skills": {
     "paths": [
@@ -31,7 +31,7 @@ echo "{
     },
     "webfetch": "ask"
   }
-}" > ~/.config/opencode/opencode.json
+}' > ~/.config/opencode/opencode.json
 ```
 
 # claude code setup
