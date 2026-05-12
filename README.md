@@ -52,23 +52,19 @@ echo '{
 ```
 
 # claude code setup
+**I do not use it**
 - install
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install --lts
 npm install -g @anthropic-ai/claude-code
 ```
-- configure
-```bash
-```
 
 # codex setup
+**I use it only as a part of opencode as a second opinion**
 - install
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install --lts
 npm install -g @openai/codex
-```
-- configure
-```bash
 ```
