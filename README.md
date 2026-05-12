@@ -242,6 +242,17 @@ echo '{
       "type": "local",
       "command": ["docker", "run", "-i", "--rm", "hashicorp/terraform-mcp-server"],
       "enabled": true
+    },
+    "openaiDeveloperDocs": {
+      "type": "remote",
+      "url": "https://developers.openai.com/mcp",
+      "enabled": true
+    },
+    "notion": {
+      "type": "remote",
+      "url": "https://mcp.notion.com/mcp",
+      "oauth": {},
+      "enabled": true
     }
   },
   "permission": {
