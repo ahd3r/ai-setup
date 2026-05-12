@@ -19,9 +19,9 @@ git clone https://github.com/upstash/context7.git ~/repos/upstash/context7
 git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills
 git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
 git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings
-git clone https://github.com/ClickHouse/agent-skills.git ~/repos/ClickHouse/agent-skills
 git clone https://github.com/openai/skills.git ~/repos/openai/skills
 # for agents
+git clone https://github.com/ClickHouse/agent-skills.git ~/repos/ClickHouse/agent-skills
 git clone https://github.com/hashicorp/agent-skills.git ~/repos/hashicorp/agent-skills
 git clone https://github.com/callstackincubator/agent-skills.git ~/repos/callstackincubator/agent-skills
 # for mcps
