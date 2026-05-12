@@ -20,7 +20,7 @@ git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/
 - configure
   - authenticate with proper account (for personal use case, I use OpenAI, for work, I use Anthropic)
   - choose model (for personal use case, I use GPT 5.5 high, for work, I use Claude Opus 4.7 high)
-  - configure skills
+  - define configuration
 ```bash
 echo '{
   "$schema": "https://opencode.ai/config.json",
@@ -44,6 +44,7 @@ echo '{
   }
 }' > ~/.config/opencode/opencode.json
 ```
+
 # claude code setup
 - install
 ```bash
