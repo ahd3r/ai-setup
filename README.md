@@ -68,3 +68,20 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install --lts
 npm install -g @openai/codex
 ```
+- auth
+```bash
+codex login --device-auth
+```
+- configure
+```bash
+echo 'model = "gpt-5.5"
+model_reasoning_effort = "high"
+sandbox = "read-only"
+
+[profiles.readonly]
+sandbox = "read-only"
+
+[profiles.dev]
+sandbox = "workspace-write"
+model_reasoning_effort = "high"' > ~/.codex/config.toml
+```
