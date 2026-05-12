@@ -16,10 +16,10 @@ git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
 git clone https://github.com/upstash/context7.git ~/repos/upstash/context7
-git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills # also have agents
+git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills # also have agents and mcps
 git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
-git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings # also have agents
-git clone https://github.com/openai/skills.git ~/repos/openai/skills
+git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings # also have agents and mcps
+git clone https://github.com/openai/skills.git ~/repos/openai/skills # also have mcps
 # for agents
 git clone https://github.com/ClickHouse/agent-skills.git ~/repos/ClickHouse/agent-skills
 git clone https://github.com/hashicorp/agent-skills.git ~/repos/hashicorp/agent-skills
