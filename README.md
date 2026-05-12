@@ -9,8 +9,10 @@ npm i -g opencode-ai
 - load all dependencies
 ```bash
 # for skills
-# skills for any CLI/SDK/API in https://github.com/VoltAgent/awesome-agent-skills
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
+git clone https://github.com/antonbabenko/terraform-skill.git ~/repos/antonbabenko/terraform-skill
+git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills
+git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git ~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering
 git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
 git clone https://github.com/obra/superpowers.git ~/repos/obra/superpowers
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
@@ -30,11 +32,13 @@ echo '{
   "$schema": "https://opencode.ai/config.json",
   "skills": {
     "paths": [
+      "~/repos/ahd3r/ai-setup/skills",
+      "~/repos/microsoft/skills/.github/skills",
+      "~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering/skills",
       "~/repos/trailofbits/skills/.codex/skills",
       "~/repos/skills-directory/skill-codex/plugins/skill-codex/skills",
       "~/repos/obra/superpowers/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
-      "~/repos/ahd3r/ai-setup/skills",
       "~/repos/upstash/context7/skills",
       "~/repos/anthropics/skills"
     ]
