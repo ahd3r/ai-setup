@@ -11,6 +11,7 @@ npm i -g opencode-ai
 # for skills
 # skills for any CLI/SDK/API in https://github.com/VoltAgent/awesome-agent-skills
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
+git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
 git clone https://github.com/obra/superpowers.git ~/repos/obra/superpowers
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
@@ -34,7 +35,8 @@ echo '{
       "~/repos/obra/superpowers/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
       "~/repos/ahd3r/ai-setup/skills",
-      "~/repos/upstash/context7/skills"
+      "~/repos/upstash/context7/skills",
+      "~/repos/anthropics/skills"
     ]
   },
   "permission": {
