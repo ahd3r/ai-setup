@@ -5,6 +5,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install --lts
 npm i -g opencode-ai
 ```
+- base configuration
+  - authenticate with proper account (for personal use-case, I use OpenAI, for work I use Anthropic)
+  - choose model (for personal use-case, I use GPT 5.5 high, for work I use Claude Opus 4.7 high)
 - configure skills
 ```bash
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
