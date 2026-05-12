@@ -10,15 +10,15 @@ npm i -g opencode-ai
 ```bash
 # for skills
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
-git clone https://github.com/antonbabenko/terraform-skill.git ~/repos/antonbabenko/terraform-skill
-git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills
-git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git ~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering
-git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
 git clone https://github.com/obra/superpowers.git ~/repos/obra/superpowers
+git clone https://github.com/antonbabenko/terraform-skill.git ~/repos/antonbabenko/terraform-skill
+git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git ~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
-git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings
 git clone https://github.com/upstash/context7.git ~/repos/upstash/context7
+git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills
+git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
+git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings
 # for agents
 # for mcps
 # for commands
@@ -33,15 +33,15 @@ echo '{
   "skills": {
     "paths": [
       "~/repos/ahd3r/ai-setup/skills",
-      "~/repos/antonbabenko/terraform-skill/skills",
-      "~/repos/microsoft/skills/.github/skills",
-      "~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering/skills",
-      "~/repos/anthropics/skills/skills",
       "~/repos/obra/superpowers/skills",
+      "~/repos/antonbabenko/terraform-skill/skills",
+      "~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering/skills",
       "~/repos/trailofbits/skills/.codex/skills",
       "~/repos/skills-directory/skill-codex/plugins/skill-codex/skills",
-      "~/repos/feiskyer/claude-code-settings/skills",
-      "~/repos/upstash/context7/skills"
+      "~/repos/upstash/context7/skills",
+      "~/repos/microsoft/skills/.github/skills",
+      "~/repos/anthropics/skills/skills",
+      "~/repos/feiskyer/claude-code-settings/skills"
     ]
   },
   "permission": {
