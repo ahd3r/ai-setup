@@ -33,14 +33,15 @@ echo '{
   "skills": {
     "paths": [
       "~/repos/ahd3r/ai-setup/skills",
+      "~/repos/antonbabenko/terraform-skill/skills",
       "~/repos/microsoft/skills/.github/skills",
       "~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering/skills",
+      "~/repos/anthropics/skills/skills",
+      "~/repos/obra/superpowers/skills",
       "~/repos/trailofbits/skills/.codex/skills",
       "~/repos/skills-directory/skill-codex/plugins/skill-codex/skills",
-      "~/repos/obra/superpowers/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
-      "~/repos/upstash/context7/skills",
-      "~/repos/anthropics/skills/skills"
+      "~/repos/upstash/context7/skills"
     ]
   },
   "permission": {
