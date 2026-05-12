@@ -17,8 +17,8 @@ git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
 git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings
 git clone https://github.com/upstash/context7.git ~/repos/upstash/context7
-# for mcps
 # for agents
+# for mcps
 # for commands
 ```
 - configure
