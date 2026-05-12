@@ -15,6 +15,7 @@ git clone https://github.com/obra/superpowers.git ~/repos/obra/superpowers
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
 git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings
+git clone https://github.com/upstash/context7.git ~/repos/upstash/context7
 # for mcps
 # for agents
 # for commands
@@ -32,7 +33,8 @@ echo '{
       "~/repos/skills-directory/skill-codex/plugins/skill-codex/skills",
       "~/repos/obra/superpowers/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
-      "~/repos/ahd3r/ai-setup/skills"
+      "~/repos/ahd3r/ai-setup/skills",
+      "~/repos/upstash/context7/skills"
     ]
   },
   "permission": {
