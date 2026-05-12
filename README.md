@@ -23,7 +23,6 @@ git clone https://github.com/openai/skills.git ~/repos/openai/skills # also have
 # for agents
 git clone https://github.com/ClickHouse/agent-skills.git ~/repos/ClickHouse/agent-skills
 git clone https://github.com/hashicorp/agent-skills.git ~/repos/hashicorp/agent-skills
-git clone https://github.com/callstackincubator/agent-skills.git ~/repos/callstackincubator/agent-skills
 # for mcps
 # for commands
 ```
