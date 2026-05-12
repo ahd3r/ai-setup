@@ -5,6 +5,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install --lts
 npm i -g opencode-ai
 ```
+- install codex (for codex skill)
 - load all dependencies
 ```bash
 # for skills
