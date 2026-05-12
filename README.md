@@ -46,8 +46,8 @@ echo '{
       "~/repos/microsoft/skills/.github/plugins/deep-wiki/skills",
       "~/repos/anthropics/skills/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
-      "~/repos/ClickHouse/agent-skills/skills",
-      "~/repos/openai/skills/skills/.curated"
+      "~/repos/openai/skills/skills/.curated",
+      "~/repos/ClickHouse/agent-skills/skills"
     ]
   },
   "agents": {
@@ -191,6 +191,36 @@ echo '{
         "bash": "ask",
         "webfetch": "allow"
       }
+    },
+    "clickhouse-expert": {
+      "description": "ClickHouse and chDB specialist.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/ClickHouse/agent-skills/AGENTS.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "ask",
+        "bash": "ask",
+        "webfetch": "allow"
+      },
+      "color": "success"
+    },
+    "hashicorp-expert": {
+      "description": "Hashicorp related products specialist.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/hashicorp/agent-skills/AGENTS.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "ask",
+        "bash": "ask",
+        "webfetch": "allow"
+      },
+      "color": "success"
     }
   },
   "mcp": {
