@@ -9,6 +9,7 @@ npm i -g opencode-ai
 - load all dependencies
 ```bash
 # for skills
+# keep in mind that there are always existing skills for any CLI/SDK/API in https://github.com/VoltAgent/awesome-agent-skills
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
 git clone https://github.com/obra/superpowers.git ~/repos/obra/superpowers
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
