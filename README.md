@@ -5,7 +5,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install --lts
 npm i -g opencode-ai
 ```
-- install codex
 - configure skills
 ```bash
 git clone https://github.com/ahd3r/ai-setup.git ~/repos/ahd3r/ai-setup
