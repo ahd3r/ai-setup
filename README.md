@@ -39,7 +39,7 @@ echo '{
       "~/repos/ahd3r/ai-setup/skills",
       "~/repos/obra/superpowers/skills",
       "~/repos/antonbabenko/terraform-skill/skills",
-      "~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering/skills",
+      "~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering",
       "~/repos/trailofbits/skills/.codex/skills",
       "~/repos/skills-directory/skill-codex/plugins/skill-codex/skills",
       "~/repos/upstash/context7/skills",
