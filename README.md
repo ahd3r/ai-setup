@@ -34,7 +34,9 @@ echo '{
   }
 }' > ~/.config/opencode/opencode.json
 ```
-
+- configure mcps
+- configure agents
+- configure commands
 # claude code setup
 - install
 ```bash
