@@ -105,6 +105,93 @@ echo '{
       "description": "Full-stack Azure AI Foundry application scaffolder for React + FastAPI + azd projects",
       "mode": "subagent",
       "prompt": "{file:~/repos/microsoft/skills/.github/agents/scaffolder.agent.md}"
+    },
+    "deep-reflector": {
+      "description": "Comprehensive session analysis and learning capture specialist. Analyzes development sessions to extract patterns, preferences, and improvements for future interactions. Use after significant work sessions to capture learnings.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/feiskyer/claude-code-settings/agents/deep-reflector.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "ask"
+      }
+    },
+    "github-issue-fixer": {
+      "description": "GitHub issue resolution specialist. Analyzes, plans, and implements fixes for GitHub issues with proper testing and PR creation. Use when fixing specific GitHub issues.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/feiskyer/claude-code-settings/agents/github-issue-fixer.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "allow",
+        "bash": {
+          "*": "ask",
+          "gh *": "allow",
+          "git *": "allow"
+        }
+      },
+      "color": "warning"
+    },
+    "insight-documenter": {
+      "description": "Technical breakthrough documentation specialist. Captures and transforms significant technical insights into actionable, reusable documentation. Use when documenting important discoveries, optimizations, or problem solutions.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/feiskyer/claude-code-settings/agents/insight-documenter.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "edit": "allow",
+        "bash": "ask"
+      },
+      "color": "accent"
+    },
+    "instruction-reflector": {
+      "description": "Analyzes and improves Claude Code instructions in CLAUDE.md. Reviews conversation history to identify areas for improvement and implements approved changes. Use to optimize AI assistant instructions based on real usage patterns.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/feiskyer/claude-code-settings/agents/instruction-reflector.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "ask"
+      },
+      "color": "warning"
+    },
+    "pr-reviewer": {
+      "description": "Expert code reviewer for GitHub pull requests. Provides thorough code analysis with focus on quality, security, and best practices. Use when reviewing PRs for code quality and potential issues.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/feiskyer/claude-code-settings/agents/pr-reviewer.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "deny",
+        "bash": {
+          "*": "ask",
+          "gh *": "allow",
+          "git *": "allow"
+        }
+      },
+      "color": "info"
+    },
+    "ui-engineer": {
+      "description": "Expert UI/frontend developer for creating, modifying, or reviewing frontend code, UI components, and user interfaces. Use when building React components, responsive designs, or any frontend development tasks. PROACTIVELY use for UI/UX implementation, component architecture, and frontend best practices.",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/feiskyer/claude-code-settings/agents/ui-engineer.md}",
+      "permission": {
+        "read": "allow",
+        "list": "allow",
+        "glob": "allow",
+        "grep": "allow",
+        "edit": "allow",
+        "bash": "ask",
+        "webfetch": "allow"
+      }
     }
   },
   "mcp": {
