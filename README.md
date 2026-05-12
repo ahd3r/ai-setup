@@ -40,7 +40,7 @@ echo '{
       "~/repos/obra/superpowers/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
       "~/repos/upstash/context7/skills",
-      "~/repos/anthropics/skills"
+      "~/repos/anthropics/skills/skills"
     ]
   },
   "permission": {
