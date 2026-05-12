@@ -44,11 +44,118 @@ echo '{
       "~/repos/skills-directory/skill-codex/plugins/skill-codex/skills",
       "~/repos/upstash/context7/skills",
       "~/repos/microsoft/skills/.github/skills",
+      "~/repos/microsoft/skills/.github/plugins/deep-wiki/skills",
       "~/repos/anthropics/skills/skills",
       "~/repos/feiskyer/claude-code-settings/skills",
       "~/repos/ClickHouse/agent-skills/skills",
       "~/repos/openai/skills/skills/.curated"
     ]
+  },
+  "agents": {
+    "deep-wiki-architect": {
+      "description": "Technical documentation architect that analyzes repositories and generates structured wiki catalogues with onboarding guides",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/plugins/deep-wiki/agents/wiki-architect.md}",
+      "permission": {
+        "edit": "deny"
+      }
+    },
+    "deep-wiki-researcher": {
+      "description": "Expert code analyst conducting systematic deep research with zero tolerance for shallow analysis",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/plugins/deep-wiki/agents/wiki-researcher.md}",
+      "permission": {
+        "edit": "deny"
+      }
+    },
+    "deep-wiki-writer": {
+      "description": "Senior documentation engineer that generates wiki pages with rich Mermaid diagrams, code citations, VitePress-compatible output, and validation",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/plugins/deep-wiki/agents/wiki-writer.md}"
+    },
+    "microsoft-backend": {
+      "description": "FastAPI/Python specialist for CoreAI DIY backend development with Pydantic, Cosmos DB, and Azure services",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/agents/backend.agent.md}"
+    },
+    "microsoft-frontend": {
+      "description": "React/TypeScript specialist for CoreAI DIY frontend development with React Flow, Zustand, and Tailwind CSS",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/agents/frontend.agent.md}"
+    },
+    "microsoft-infrastructure": {
+      "description": "Azure and Bicep specialist for CoreAI DIY infrastructure, deployments, and DevOps",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/agents/infrastructure.agent.md}"
+    },
+    "microsoft-planner": {
+      "description": "Read-only planning specialist that analyzes requirements, explores the codebase, and creates detailed implementation plans before coding begins",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/agents/planner.agent.md}",
+      "permission": {
+        "edit": "deny"
+      }
+    },
+    "microsoft-presenter": {
+      "description": "Specialist for CoreAI DIY presenter mode features, including presentation view, navigation, and teleprompter functionality",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/agents/presenter.agent.md}"
+    },
+    "microsoft-scaffolder": {
+      "description": "Full-stack Azure AI Foundry application scaffolder for React + FastAPI + azd projects",
+      "mode": "subagent",
+      "prompt": "{file:~/repos/microsoft/skills/.github/agents/scaffolder.agent.md}"
+    }
+  },
+  "mcp": {
+    "azure": {
+      "type": "local",
+      "command": ["npx", "-y", "@azure/mcp@latest", "server", "start"],
+      "enabled": true
+    },
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "chrome-devtools-mcp@latest"],
+      "enabled": true
+    },
+    "context7": {
+      "type": "local",
+      "command": ["npx", "-y", "@upstash/context7-mcp@latest"],
+      "enabled": true
+    },
+    "eslint": {
+      "type": "local",
+      "command": ["npx", "eslint", "--mcp"],
+      "enabled": true
+    },
+    "memory": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
+      "environment": {
+        "MEMORY_FILE_PATH": "{env:OPENCODE_MEMORY_FILE_PATH}"
+      },
+      "enabled": true
+    },
+    "playwright": {
+      "type": "local",
+      "command": ["npx", "-y", "@playwright/mcp@latest"],
+      "enabled": true
+    },
+    "sequentialthinking": {
+      "type": "local",
+      "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "enabled": true
+    },
+    "svelte": {
+      "type": "remote",
+      "url": "https://mcp.svelte.dev/mcp",
+      "enabled": true
+    },
+    "terraform": {
+      "type": "local",
+      "command": ["docker", "run", "-i", "--rm", "hashicorp/terraform-mcp-server"],
+      "enabled": true
+    }
   },
   "permission": {
     "edit": "ask",
