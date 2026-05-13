@@ -16,7 +16,6 @@ git clone https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
 git clone https://github.com/trailofbits/skills.git ~/repos/trailofbits/skills
 git clone https://github.com/skills-directory/skill-codex.git ~/repos/skills-directory/skill-codex
 git clone https://github.com/upstash/context7.git ~/repos/upstash/context7
-git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills # also have agents and mcps
 git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
 git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings # also have agents and mcps
 git clone https://github.com/openai/skills.git ~/repos/openai/skills # also have mcps
@@ -40,7 +39,6 @@ opencode run "Install all from ~/repos/muratcankoylan/Agent-Skills-for-Context-E
 opencode run "Install all from ~/repos/trailofbits/skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/skills-directory/skill-codex to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/upstash/context7 to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
-opencode run "Install all from ~/repos/microsoft/skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/anthropics/skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/feiskyer/claude-code-settings to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/openai/skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
