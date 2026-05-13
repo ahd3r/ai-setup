@@ -22,7 +22,6 @@ git clone https://github.com/openai/skills.git ~/repos/openai/skills # also have
 git clone https://github.com/alirezarezvani/claude-skills.git ~/repos/alirezarezvani/claude-skills
 git clone https://github.com/wshobson/agents.git ~/repos/wshobson/agents # also have agents
 # for agents
-git clone https://github.com/ClickHouse/agent-skills.git ~/repos/ClickHouse/agent-skills
 git clone https://github.com/hashicorp/agent-skills.git ~/repos/hashicorp/agent-skills
 # for mcps
 # for commands
@@ -44,7 +43,6 @@ opencode run "Install all from ~/repos/feiskyer/claude-code-settings to opencode
 opencode run "Install all from ~/repos/openai/skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/alirezarezvani/claude-skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/wshobson/agents to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
-opencode run "Install all from ~/repos/ClickHouse/agent-skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/hashicorp/agent-skills to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 echo '{
   "$schema": "https://opencode.ai/config.json",
