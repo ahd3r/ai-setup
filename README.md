@@ -33,6 +33,7 @@ git clone https://github.com/hashicorp/agent-skills.git ~/repos/hashicorp/agent-
   - choose model (for personal use case, I use GPT 5.5 high, for work, I use Claude Opus 4.7 high)
   - define configuration
 ```bash
+opencode run "add ~/repos/ahd3r/ai-setup/skills to opencode skills.paths"
 opencode run "Install all from ~/repos/obra/superpowers to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/antonbabenko/terraform-skill to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
 opencode run "Install all from ~/repos/muratcankoylan/Agent-Skills-for-Context-Engineering to opencode.json config, include skills, mcps and agents. Exclude skill, mcp or agent, if already presented"
