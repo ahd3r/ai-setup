@@ -20,6 +20,7 @@ git clone https://github.com/microsoft/skills.git ~/repos/microsoft/skills # als
 git clone https://github.com/anthropics/skills.git ~/repos/anthropics/skills
 git clone https://github.com/feiskyer/claude-code-settings.git ~/repos/feiskyer/claude-code-settings # also have agents and mcps
 git clone https://github.com/openai/skills.git ~/repos/openai/skills # also have mcps
+git clone https://github.com/alirezarezvani/claude-skills.git ~/repos/alirezarezvani/claude-skills
 # for agents
 git clone https://github.com/ClickHouse/agent-skills.git ~/repos/ClickHouse/agent-skills
 git clone https://github.com/hashicorp/agent-skills.git ~/repos/hashicorp/agent-skills
