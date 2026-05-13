@@ -61,6 +61,7 @@ echo '{
   }
 }' > ~/.config/opencode/opencode.json
 ```
+- remove unnecessary MCPs servers from opencode.json
 
 # claude code setup
 **I do not use it**
